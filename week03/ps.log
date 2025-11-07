@@ -1,0 +1,80 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 11:00 ?        00:00:29 /sbin/init
+root           2       1  0 11:00 ?        00:00:00 /init
+root           6       2  0 11:00 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          52       1  0 11:00 ?        00:00:11 /usr/lib/systemd/systemd-journald
+root         100       1  0 11:00 ?        00:00:13 /usr/lib/systemd/systemd-udevd
+root         112       1  0 11:00 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core24_1151.snap /snap/core24/1151 -o ro,nodev,allow_other,suid
+root         115       1  0 11:00 ?        00:00:00 snapfuse /var/lib/snapd/snaps/htop_5092.snap /snap/htop/5092 -o ro,nodev,allow_other,suid
+root         116       1  0 11:00 ?        00:00:03 snapfuse /var/lib/snapd/snaps/snapd_25202.snap /snap/snapd/25202 -o ro,nodev,allow_other,suid
+root         139     100  0 11:00 ?        00:00:00 (udev-worker)
+root         140     100  0 11:00 ?        00:00:18 (udev-worker)
+root         141     100  0 11:00 ?        00:00:00 (udev-worker)
+root         142     100  0 11:00 ?        00:00:00 (udev-worker)
+root         143     100  0 11:00 ?        00:00:00 (udev-worker)
+root         144     100  0 11:00 ?        00:00:00 (udev-worker)
+root         145     100  0 11:00 ?        00:00:00 (udev-worker)
+root         146     100  0 11:00 ?        00:00:00 (udev-worker)
+root         147     100  0 11:00 ?        00:00:00 (udev-worker)
+root         148     100  0 11:00 ?        00:00:00 (udev-worker)
+root         149     100  0 11:00 ?        00:00:01 (udev-worker)
+root         150     100  0 11:00 ?        00:00:00 (udev-worker)
+root         151     100  0 11:00 ?        00:00:00 (udev-worker)
+root         152     100  0 11:00 ?        00:00:00 (udev-worker)
+root         153     100  0 11:00 ?        00:00:00 (udev-worker)
+root         154     100  0 11:00 ?        00:00:00 (udev-worker)
+root         155     100  0 11:00 ?        00:00:00 (udev-worker)
+root         156     100  0 11:00 ?        00:00:00 (udev-worker)
+root         157     100  0 11:00 ?        00:00:00 (udev-worker)
+root         158     100  0 11:00 ?        00:00:00 (udev-worker)
+root         159     100  0 11:00 ?        00:00:00 (udev-worker)
+root         161     100  0 11:00 ?        00:00:00 (udev-worker)
+root         162     100  0 11:00 ?        00:00:00 (udev-worker)
+root         163     100  0 11:00 ?        00:00:00 (udev-worker)
+root         164     100  0 11:00 ?        00:00:00 (udev-worker)
+root         165     100  0 11:00 ?        00:00:00 (udev-worker)
+systemd+     166       1  0 11:00 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+     167       1  0 11:00 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+root         168     100  0 11:00 ?        00:00:00 (udev-worker)
+root         169     100  0 11:00 ?        00:00:00 (udev-worker)
+root         170     100  0 11:00 ?        00:00:00 (udev-worker)
+root         171     100  0 11:00 ?        00:00:00 (udev-worker)
+root         172     100  0 11:00 ?        00:00:00 (udev-worker)
+root         173     100  0 11:00 ?        00:00:00 (udev-worker)
+root         174     100  0 11:00 ?        00:00:07 (udev-worker)
+root         176     100  0 11:00 ?        00:00:00 (udev-worker)
+root         177     100  0 11:00 ?        00:00:00 (udev-worker)
+root         178     100  0 11:00 ?        00:00:00 (udev-worker)
+root         179     100  0 11:00 ?        00:00:00 (udev-worker)
+root         180     100  0 11:00 ?        00:00:00 (udev-worker)
+root         181     100  0 11:00 ?        00:00:00 (udev-worker)
+root         182     100  0 11:00 ?        00:00:00 (udev-worker)
+root         183     100  0 11:00 ?        00:00:00 (udev-worker)
+root         184     100  0 11:00 ?        00:00:00 (udev-worker)
+root         186     100  0 11:00 ?        00:00:00 (udev-worker)
+root         187     100  0 11:00 ?        00:00:00 (udev-worker)
+root         188     100  0 11:00 ?        00:00:00 (udev-worker)
+root         189     100  0 11:00 ?        00:00:00 (udev-worker)
+root         190     100  0 11:00 ?        00:00:00 (udev-worker)
+root         191     100  0 11:00 ?        00:00:00 (udev-worker)
+root         192     100  0 11:00 ?        00:00:00 (udev-worker)
+root         194     100  0 11:00 ?        00:00:00 (udev-worker)
+root         195     100  0 11:00 ?        00:00:00 (udev-worker)
+root         196     100  0 11:00 ?        00:00:00 (udev-worker)
+root         216       1  0 11:00 ?        00:00:00 /usr/sbin/cron -f -P
+message+     217       1  0 11:00 ?        00:00:05 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         229       1  0 11:00 ?        00:00:16 /usr/lib/snapd/snapd
+root         236       1  0 11:00 ?        00:00:01 /usr/lib/systemd/systemd-logind
+root         256       1  0 11:00 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       275       1  0 11:00 ?        00:00:03 /usr/sbin/rsyslogd -n -iNONE
+root         278       1  0 11:00 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         287       1  0 11:00 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         426       2  0 11:01 ?        00:00:00 /init
+root         429     426  0 11:01 ?        00:00:01 /init
+rtals        439     429  0 11:01 pts/0    00:00:00 -bash
+root         440       2  0 11:01 pts/1    00:00:00 /bin/login -f
+rtals        543       1  0 11:01 ?        00:00:00 /usr/lib/systemd/systemd --user
+rtals        544     543  0 11:01 ?        00:00:00 (sd-pam)
+rtals        559     440  0 11:01 pts/1    00:00:00 -bash
+polkitd     8470       1  0 11:23 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+rtals      44090     439 99 13:04 pts/0    00:00:00 ps -ef
